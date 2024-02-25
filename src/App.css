@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.cardsContainer {
+  display: flex;
+  width: 100%;
+  max-width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.card {
+  width: 30%;
+  min-width: 300px;
+  max-width: 400px;
+  height: 430px;
+  border: 1px solid rgb(172, 169, 169);
+  gap: 20px;
+  flex-grow: 1;
+}
+
+.imageContainer {
+  overflow: hidden;
+  height: 60%;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+hr {
+  color: rgb(216, 216, 216);
+}
+
+.bottom_data {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom_data div {
+  display: flex;
+  align-items: center;
+}
+
+.detail {
+  margin-top: 10px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  max-width: 1250px;
+  padding: 20px 20px;
+}
+
+.top h1 {
+  font-size: 32px;
+}
+
+.bottom {
+  width: 100%;
+  max-width: 1250px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  align-items: center;
+  gap: 30px;
+  color: white;
+  font-weight: bold;
+  /* background-color: rgba(240, 248, 255, 0.71); */
+  border-radius: 5px;
+  margin: 0 auto 20px auto;
+}
+
+.bottom input {
+  margin: 10px 0;
+  padding: 4px;
+}
+
+.bottomWrapper {
+  background-color: #D8232A;
+}
+
+.bottom div {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgb(215, 215, 215);
+  flex-grow: 1;
+  padding: 0 30px;
+}
+
+select {
+  margin: 10px 0;
+  padding: 4px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+.searchBar button {
+  margin: 0 10px;
+}
+
+@media screen and (max-width:850px) {
+  .top h1 {
+    font-size: 24px;
+  }
+
+  .card {
+    min-width: 270px;
+  }
+
+}
+
+@media screen and (max-width:930px) {
+  .bottom div {
+    padding: 0 5px;
+  }
+}
+
+@media screen and (max-width:730px) {
+  .card {
+    max-width: none;
+  }
+
+  .bottom {
+    flex-wrap: wrap;
+  }
+
+  .bottom div {
+    border: none;
+  }
+
+  select {
+    margin: 0;
+  }
+
+  .bottom input {
+    margin: 0;
+  }
+
+  .bottom {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width:650px) {
+  .top h1 {
+    display: none;
+  }
+
+  .bottom {
+    flex-wrap: wrap;
+  }
+}

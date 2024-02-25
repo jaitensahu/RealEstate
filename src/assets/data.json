@@ -1,0 +1,224 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "price": 450,
+    "name": "House 1",
+    "address": "204-abc nagar, xyz-road, MUMBAI",
+    "beds": 5,
+    "bath": 2,
+    "area": "33x4",
+    "type": "House",
+    "id": 1
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1579725942955-4d8377f8c66a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 550,
+    "name": "House 2",
+    "address": "123-main street, abc-town, DELHI",
+    "beds": 4,
+    "bath": 3,
+    "area": "40x5",
+    "type": "pg",
+    "id": 2
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 600,
+    "name": "House 3",
+    "address": "789-xyz avenue, pqr-street, BANGALORE",
+    "beds": 3,
+    "bath": 2,
+    "area": "35x6",
+    "type": "House",
+    "id": 3
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 700,
+    "name": "House 4",
+    "address": "456-pqr street, def-town, CHENNAI",
+    "beds": 6,
+    "bath": 4,
+    "area": "45x7",
+    "type": "pg",
+    "id": 4
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+    "price": 800,
+    "name": "House 5",
+    "address": "101-mno street, rst-town, HYDERABAD",
+    "beds": 4,
+    "bath": 3,
+    "area": "38x8",
+    "type": "farm-house",
+    "id": 5
+  },
+
+  {
+    "image": "https://images.unsplash.com/photo-1510627489930-0c1b0bfb6785?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": 500,
+    "name": "House 51",
+    "address": "789-abc street, xyz-town, PUNE",
+    "beds": 3,
+    "bath": 2,
+    "area": "30x5",
+    "type": "villa",
+    "id": 6
+  },
+  {
+    "image": "https://images.adsttc.com/media/images/65b7/f5c6/11de/4843/00b3/f53d/slideshow/mayalogili-house-nowhere_6.jpg?1706554834",
+    "price": 550,
+    "name": "House 52",
+    "address": "456-def avenue, rst-street, JAIPUR",
+    "beds": 4,
+    "bath": 3,
+    "area": "35x6",
+    "type": "villa",
+    "id": 7
+  },
+  {
+    "image": "https://images.adsttc.com/media/images/65b7/f5c7/11de/481b/4116/bfc3/slideshow/mayalogili-house-nowhere_5.jpg?1706554838",
+    "price": 600,
+    "name": "House 53",
+    "address": "101-xyz street, abc-town, GOA",
+    "beds": 3,
+    "bath": 2,
+    "area": "32x4",
+    "type": "farm-house",
+    "id": 8
+  },
+  {
+    "image": "https://images.adsttc.com/media/images/65b7/f5c9/11de/4843/00b3/f53f/slideshow/mayalogili-house-nowhere_11.jpg?1706554842",
+    "price": 700,
+    "name": "House 54",
+    "address": "789-mno avenue, pqr-street, MYSURU",
+    "beds": 5,
+    "bath": 3,
+    "area": "38x7",
+    "type": "farm-house",
+    "id": 9
+  },
+  {
+    "image": "https://images.adsttc.com/media/images/659e/c671/9936/3f26/9927/7a13/slideshow/cascading-terraces-arcab_10.jpg?1704904321",
+    "price": 800,
+    "name": "House 55",
+    "address": "456-abc street, xyz-road, AHMEDABAD",
+    "beds": 4,
+    "bath": 2,
+    "area": "40x6",
+    "type": "oyo",
+    "id": 10
+  },
+
+  {
+    "image": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "price": 500,
+    "name": "House 91",
+    "address": "789-abc street, xyz-town, PUNE",
+    "beds": 3,
+    "bath": 2,
+    "area": "30x5",
+    "type": "villa",
+    "id": 11
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1505691938897-04a1517872cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+    "price": 550,
+    "name": "House 92",
+    "address": "456-def avenue, rst-street, JAIPUR",
+    "beds": 4,
+    "bath": 3,
+    "area": "35x6",
+    "type": "farm-house",
+    "id": 12
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1548600916-dc8492f8e845?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+    "price": 600,
+    "name": "House 93",
+    "address": "101-xyz street, abc-town, GOA",
+    "beds": 3,
+    "bath": 2,
+    "area": "32x4",
+    "type": "villa",
+    "id": 13
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+    "price": 700,
+    "name": "House 94",
+    "address": "789-mno avenue, pqr-street, MYSURU",
+    "beds": 5,
+    "bath": 3,
+    "area": "38x7",
+    "type": "oyo",
+    "id": 14
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+    "price": 800,
+    "name": "House 95",
+    "address": "456-abc street, xyz-road, AHMEDABAD",
+    "beds": 4,
+    "bath": 2,
+    "area": "40x6",
+    "type": "farm-house",
+    "id": 15
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "price": 500,
+    "name": "House 96",
+    "address": "789-abc street, xyz-town, PUNE",
+    "beds": 3,
+    "bath": 2,
+    "area": "30x5",
+    "type": "villa",
+    "id": 16
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1505691938897-04a1517872cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+    "price": 550,
+    "name": "House 97",
+    "address": "456-def avenue, rst-street, JAIPUR",
+    "beds": 4,
+    "bath": 3,
+    "area": "35x6",
+    "type": "oyo",
+    "id": 17
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1548600916-dc8492f8e845?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+    "price": 600,
+    "name": "House 98",
+    "address": "101-xyz street, abc-town, GOA",
+    "beds": 3,
+    "bath": 2,
+    "area": "32x4",
+    "type": "oyo",
+    "id": 18
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+    "price": 700,
+    "name": "House 99",
+    "address": "789-mno avenue, pqr-street, MYSURU",
+    "beds": 5,
+    "bath": 3,
+    "area": "38x7",
+    "type": "oyo",
+    "id": 19
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+    "price": 800,
+    "name": "House 100",
+    "address": "456-abc street, xyz-road, AHMEDABAD",
+    "beds": 4,
+    "bath": 2,
+    "area": "40x6",
+    "type": "villa",
+    "id": 20
+  }
+]

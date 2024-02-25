@@ -2,8 +2,7 @@ import React from "react";
 import Header from "../Header/Header";
 import { Outlet } from "react-router-dom";
 
-const Layout = (props) => {
-  console.log(props);
+const Layout = () => {
   return (
     <div>
       <Header />

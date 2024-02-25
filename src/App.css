@@ -7,6 +7,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-color: aliceblue;
+}
+
 .cardsContainer {
   display: flex;
   width: 100%;
@@ -14,6 +18,10 @@
   margin: auto;
   flex-wrap: wrap;
   gap: 40px;
+}
+
+.header {
+  background-color: white;
 }
 
 .card {
@@ -24,6 +32,24 @@
   border: 1px solid rgb(172, 169, 169);
   gap: 20px;
   flex-grow: 1;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.259);
+  cursor: pointer;
+}
+
+.bottom button {
+  background-color: rgba(238, 238, 119, 0.774);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+
+
 }
 
 .imageContainer {
@@ -35,6 +61,7 @@ img {
   width: 100%;
   object-fit: cover;
   height: 100%;
+  transition: 0.3s ease-in-out;
 }
 
 h1 {
@@ -61,12 +88,43 @@ hr {
   align-items: center;
 }
 
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.notFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error h1 {
+  font-size: 38px;
+
+}
+
 .detail {
   margin-top: 10px;
   padding: 0 10px;
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+.top input {
+  padding: 10px 5px;
+  /* width: 50%; */
+  flex-grow: 1;
+  border-radius: 5px;
+}
+
+.searchBar {
+  flex-grow: 0.5;
+  display: flex;
+  justify-content: space-between;
 }
 
 .top {
@@ -121,7 +179,29 @@ select {
 }
 
 button {
-  padding: 5px 10px;
+  cursor: pointer;
+  /* padding: 5px 10px; */
+}
+
+img:hover {
+  transform: scale(110%);
+}
+
+.icon {
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(97%);
+}
+
+.top button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #D8232A;
+  color: white;
+  font-weight: bold;
+  border: none;
 }
 
 .searchBar button {

@@ -23,7 +23,7 @@ const Header = () => {
   } = useContext(myContext);
 
   return (
-    <div>
+    <div className="header">
       <div className="top">
         <IconContext.Provider value={{ size: "1.5em" }}>
           <div className="icon">
@@ -55,15 +55,18 @@ const Header = () => {
           <div className="price">
             <p>Price</p>
             <select name="" id="" value={price} onChange={getPrice}>
+              <option value="All">All</option>
               <option value="0-500">0-500</option>
               <option value="500-1000">500-1000</option>
               <option value="1000-2000">1000-2000</option>
+              <option value="2000-3000">1000-2000</option>
             </select>
           </div>
 
           <div className="propertyType">
             <p>Property Type</p>
             <select name="" id="" onChange={getProperty} value={property}>
+              <option value="All">All</option>
               <option value="House">House</option>
               <option value="Pg">Pg</option>
               <option value="Farm-house">Farm-house</option>
@@ -73,7 +76,9 @@ const Header = () => {
             </select>
           </div>
 
-          <button onClick={() => getAllData()}>Submit</button>
+          <button className="" onClick={() => getAllData()}>
+            Submit
+          </button>
         </div>
       </div>
     </div>

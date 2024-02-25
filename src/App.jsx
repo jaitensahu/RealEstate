@@ -4,11 +4,13 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import AllCards from "./Component/AllCards/AllCards";
 import LikedProperty from "./Component/LikedPropertyPage/LikedProperty";
 import Context from "./Component/DataStore/Context";
+import ErrorPage from "./Component/ErrorPage/ErrorPage";
 function App() {
   let router = createBrowserRouter([
     {
       path: "/",
       element: <Layout />,
+      errorElement:<ErrorPage />,
       children: [
         {
           path: "/",

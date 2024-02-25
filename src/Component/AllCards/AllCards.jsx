@@ -7,18 +7,25 @@ import { GoDiamond } from "react-icons/go";
 import { IconContext } from "react-icons";
 import { useContext } from "react";
 import { myContext } from "../DataStore/Context";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
-const AllCards = (props) => {
-  let { dataArray, isLiked, likedArray, setLikedArray,searchProperty, addToLike } =
-    useContext(myContext);
+const AllCards = () => {
+  let { dataArray, likedArray, addToLike } = useContext(myContext);
 
+  if (dataArray.length == 0) {
+    return (
+      <div className="notFound">
+        <h1>Search Result Not Found... Please Modify Your Search Inputs</h1>
+      </div>
+    );
+  }
   return (
     <div className="cardsContainer">
       {dataArray.map((ele, idx) => {
         return (
-          <div className="card">
+          <div className="card" key={idx + "asde"}>
             <div className="imageContainer">
-              <img src={ele.image} alt="" />
+              <LazyLoadImage effect="blur" src={ele.image} alt="" />
             </div>
             <IconContext.Provider value={{ size: "1.5em" }}>
               <div className="detail">
